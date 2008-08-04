@@ -1,0 +1,60 @@
+#!/usr/bin/perl
+#Input:  "file to convert format"
+#Output: direct to a file
+
+#This file sorts the includes statements alphabetically
+
+$include = 0;
+$comment = 0;
+
+foreach $file (@ARGV) {
+
+open(OUTPUT, ">/tmp/$file");
+
+   %library = ();     #has all of include names
+   open(FILE, $file) || warn "Can't open $file: $!\n";
+   
+   while(<FILE>) {                    #cycle through file
+
+      if (($include == 1) && (/^\/\//)) {        #if comment found while in includes...
+         $save_line = $_;                          #save it one round
+         $comment = 1;
+      }
+      elsif (($comment == 1) && (/#include/)) {  #if include found with a comment before it...
+         $include_line = $_;                     #capture current line...
+         @save=split('$',$include_line);               #peel off carriage return
+         $save = $save[0];                             #and keep as $save
+         ($include_word, $name) = split(' ',$save);    #separate name from rest of line,
+         $composite_line = join(':', $save,$save_line);        #concatenate include line with comment
+         $library{$name} = $composite_line;                     #save line for sort,
+         $comment = 0;                           #clean up.
+         $composite_line = 0;
+         $save_line = 0;
+      }
+      elsif (/#include/) {                      #if include without comment,
+         $include = 1;                             #indicate we found one,
+         $include_line = $_;
+         ($include_word, $name) = split(' ');           #get name,
+         $library{$name} = $include_line;                     #save line for sort.
+      }    
+      elsif ((!/^#include/) && ($include == 1)) { #once we come out of the include set,
+         foreach $library_name(sort (keys %library)) {    #sort according to key==$name
+            $x=$library_name;
+            if ($library{$library_name} =~ /\/\//) {
+               @line = split(':',$library{$library_name});
+               print (OUTPUT "$line[1]");
+               print (OUTPUT "$line[0]\n");
+            }
+            else {
+               print (OUTPUT "#include $library_name\n");
+            }
+         }
+         $include = 0;                             #rest marker,
+      }
+      elsif (!/^#include/) {
+         print (OUTPUT);
+      }
+   }
+}
+
+close FILE;

@@ -1,0 +1,96 @@
+#!/usr/bin/perl
+#Input:  "file to convert format"
+#Output: direct to a file
+
+#This file:
+# 1) finds the initial white spaces, computes tabs, and prints data.
+# 2) finds squiggly brackets at end of data lines and separates data line from bracket and prints on two lines.
+# 3) adjusts bare squiggly bracket indents
+# 4) corrects imbedded intent problem
+# 5) corrects the code which separates bracket found on a data line.
+# 6) moved PUBLIC data over one tab space.
+
+open(OUTPUT, ">/tmp/output");
+
+foreach $file (@ARGV) {
+
+   $in = 0;
+   $out = 0;
+
+   open(FILE, $file) || warn "Can't open $file: $!\n";
+   while(<FILE>) {                    #cycle through file
+
+      $line = $_;
+
+      if($line =~ /{/) {
+         if($line =~ /^\s+{\s*$/) {                 #if you find a bare opening squiggly bracket...
+            $in++;                   #set marker.
+            $indent = &adjust_in($in,$out);  #determining proper indent.
+            $i=0;
+            while($i++ < $indent) {           #add the adjusted tabs...
+               print(OUTPUT "\t");
+            }
+            print(OUTPUT "{\n");
+         }
+
+         elsif($line =~ /^\s*\S+.+{\s*$/) {     #data line with an open bracket at the end...
+            @items = split(/^\s+/,$_);          #split the line to remove initial spaces...
+            @elements = split(/\s*{/,$items[$#items]);  #remove the bracket from the data line...
+            $in++;
+            $indent = &adjust_in($in,$out);  #use alternate means for determining proper indent.
+            $i=0;
+            while($i++ < $indent) {              #add the tabs...
+               print(OUTPUT "\t");
+            }
+            print(OUTPUT $elements[0], "\n");  #print data line and bracket on separate lines
+            $j=0;
+            while($j++ < $indent) {              #add the tabs...
+               print(OUTPUT "\t");
+            }
+            print(OUTPUT "{\n");
+         }
+      }
+
+      elsif($line =~ /}/) { #if you find a bare closing squiggly bracket...
+         $out++;
+         $indent = &adjust_out($in,$out);  #use alternate means for determining proper indent.
+         $i=0;
+         while($i++ < $indent) {           #add the adjusted tabs...
+            print(OUTPUT "\t");
+         }
+         print(OUTPUT "}\n");
+      }
+
+      elsif($line =~ /^\s*$/) {
+         print(OUTPUT "\n");
+      }
+
+      else {
+         @items = split(/^\s+/,$_);      #split the line to remove initial spaces...
+         $offset=$in - $out;
+         $i=0;
+         while($i++ < $offset) {           #add the tabs...
+            print(OUTPUT "\t");
+         }
+         print(OUTPUT $items[$#items]);  # add the text
+      }
+   }
+}
+close FILE;
+
+
+
+sub adjust_in
+{
+      local($a, $b) = @_;
+      $indent_num = $a - 1 -$b;
+      return $indent_num;
+}
+
+
+sub adjust_out
+{
+      local($a, $b) = @_;
+      $indent_num = $a -$b;
+      return $indent_num;
+}
