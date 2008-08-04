@@ -1,0 +1,269 @@
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=-12
+Top=-3
+Width=1935
+Height=105
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1927
+ClientHeight=78
+
+[ProjectManager]
+Create=1
+Visible=1
+State=0
+Left=341
+Top=11
+Width=341
+Height=877
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=341
+ClientHeight=877
+TBDockHeight=877
+LRDockWidth=302
+Dockable=1
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=11
+Width=337
+Height=877
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=335
+ClientHeight=875
+TBDockHeight=877
+LRDockWidth=302
+Dockable=1
+SplitPos=104
+
+[Closed Files]
+File_0=SourceModule,'C:\MAK\makRti3.2\examples\performTests\src\InteractionProcessor.cpp',0,1,1,1,1,0,0
+File_1=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework\framework\utils\Sleep.h',0,1,48,95,58,0,0
+File_2=SourceModule,'C:\Program Files\boost\boost_1_35_0\libs\date_time\test\posix_time\testmicrosec_time_clock.cpp',0,1,25,20,38,0,0
+File_3=SourceModule,'C:\Program Files\boost\boost_1_35_0\libs\thread\example\xtime.cpp',0,1,1,1,1,0,0
+File_4=SourceModule,'C:\Program Files\boost\boost_1_35_0\libs\thread\example\thread.cpp',0,1,1,1,1,0,0
+File_5=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_HandlerOutputThread.cpp',0,1,121,1,130,0,0
+File_6=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Thread.cpp',0,1,1,3,17,0,0
+File_7=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\timespec.h',0,1,1,7,17,0,0
+File_8=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Sleep.h',0,1,87,2,94,0,0
+File_9=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_InputThread.cpp',0,1,43,1,1,0,0
+
+[Modules]
+Module0=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MTS_FileJoiner\MTS_FileJoiner.cpp
+Module1=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks.h
+Module2=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\MessageQueue\Queue.cpp
+Module3=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks\incl\vxWorks.h
+Module4=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\FrameworkThread.cpp
+Module5=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\Control.cpp
+Module6=C:\MAK\makRti3.2\include\RTI\RTI1516.h
+Count=7
+EditWindowCount=1
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MTS_FileJoiner\MTS_FileJoiner.cpp]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks.h]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\MessageQueue\Queue.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks\incl\vxWorks.h]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\FrameworkThread.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\Control.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\MAK\makRti3.2\include\RTI\RTI1516.h]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Borland\CBuilder4\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MTS_FileJoiner\MTS_FileJoinerProj.bpr]
+FormState=0
+FormOnTop=0
+
+[EditWindow0]
+CodeExplorer=CodeExplorer@EditWindow0
+MessageView=MessageView@EditWindow0
+ClassHierarchy=ClassHierarchy@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=0
+Top=103
+Width=1925
+Height=925
+MaxLeft=-4
+MaxTop=97
+ClientWidth=1917
+ClientHeight=898
+LeftPanelSize=0
+LeftPanelClients=CodeExplorer@EditWindow0
+LeftPanelData=00000400010000000C000000436F64654578706C6F7265720000000000000000000000000000000000FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=0
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
+ViewCount=8
+CurrentView=1
+View0=0
+View1=1
+View2=2
+View3=3
+View4=4
+View5=5
+View6=6
+View7=7
+
+[ClassHierarchy@EditWindow0]
+TreeWidth=185
+FieldListHeigth=121
+
+[CodeExplorer@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=0
+Top=11
+Width=170
+Height=501
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=170
+ClientHeight=501
+TBDockHeight=388
+LRDockWidth=170
+Dockable=1
+ClassViewDisplayMode=0
+
+[MessageView@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=11
+Top=0
+Width=1111
+Height=52
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1111
+ClientHeight=52
+TBDockHeight=52
+LRDockWidth=443
+Dockable=1
+
+[View0]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MTS_FileJoiner\MTS_FileJoiner.h
+CursorX=28
+CursorY=29
+TopLine=1
+LeftCol=1
+
+[View1]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MTS_FileJoiner\MTS_FileJoiner.cpp
+CursorX=18
+CursorY=89
+TopLine=87
+LeftCol=1
+
+[View2]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks.h
+CursorX=2
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View3]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\MessageQueue\Queue.cpp
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View4]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks\incl\vxWorks.h
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View5]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\FrameworkThread.cpp
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View6]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\Control.cpp
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View7]
+Module=C:\MAK\makRti3.2\include\RTI\RTI1516.h
+CursorX=18
+CursorY=54
+TopLine=13
+LeftCol=1
+
+[DockHosts]
+DockHostCount=1
+
+[DockSite0]
+DockSiteType=0
+Create=1
+Visible=1
+State=0
+Left=-3
+Top=148
+Width=690
+Height=912
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=682
+ClientHeight=888
+TBDockHeight=104
+LRDockWidth=201
+Dockable=1
+DockClients=PropertyInspector,ProjectManager
+DockSiteData=0000040000000000AA020000000000000278030000000000000100000000550100001100000050726F7065727479496E73706563746F720100000000AA0200001200000050726F6A6563744D616E61676572466F726DFFFFFFFF
+
+[Watches]
+Count=0
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
