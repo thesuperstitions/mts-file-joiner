@@ -1,0 +1,9 @@
+#!/bin/sh
+### Mount Shared VirtualBox folder (in this case C_DRIVE)
+sudo mount -t vboxsf -o rw C_DRIVE wc
+sudo mount -t vboxsf -o rw D_DRIVE wd
+#end
+
+#Run:
+#sudo update-rc.d vbox_xmntshare defaults
+#sudo chmod +x vbox_xmntshare
