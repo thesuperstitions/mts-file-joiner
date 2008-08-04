@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+
+<Document><Style id="tbTravelStyle"><LineStyle>
+  <width>3</width>
+  <color>ff00ffff</color>
+</LineStyle><PolyStyle>
+  <width>3</width>
+  <color>ff00ffff</color>
+</PolyStyle></Style><name>AZHs MD Friend Kelly</name><description><![CDATA[Please move my TB from cache to cache towards Columbia, MD.  Pictures of you holding my TB would be great!!  My brother and I both have TB's and are racing them to Arizona and back.  Mine made it to the desired cache in AZ and is now ready to come back home!   
+AZHs MD Friend Kelly has traveled 9896.03 miles.]]></description><Folder><Style /><name>Travel Bug Stops (9896.03 mile(s))</name><description /><open>0</open><Placemark><name>Stop 1 (GCP95G)</name><Point><coordinates>-76.8734, 39.1637, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 2 (GCP95G)</name><Point><coordinates>-76.8731, 39.1639, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 3 (GC4C99)</name><Point><coordinates>-119.8488, 34.4438, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 4 (GCRPP7)</name><Point><coordinates>-119.1506, 34.2217, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 5 (GCRPP7)</name><Point><coordinates>-119.1509, 34.2212, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 6 (GCPFXR)</name><Point><coordinates>-117.9387, 33.687, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 7 (GCPFXR)</name><Point><coordinates>-117.9388, 33.6871, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 8 (GCR56Q)</name><Point><coordinates>-111.0119, 32.3488, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 9 (GCR56Q)</name><Point><coordinates>-111.0071, 32.349, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 10 (GCVDBM)</name><Point><coordinates>-110.0604, 31.7157, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 11 (GCVDBM)</name><Point><coordinates>-110.0606, 31.7153, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 12 (GCJWY5)</name><Point><coordinates>-110.8997, 32.2129, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 13 (GCJWY5)</name><Point><coordinates>-110.8992, 32.2133, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 14 (GCW7RY)</name><Point><coordinates>-157.7067, 21.3533, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 15 (GC2EDB)</name><Point><coordinates>-158.2502, 21.576, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 16 (GC5871)</name><Point><coordinates>-110.4426, 32.8976, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 17 (GC5871)</name><Point><coordinates>-110.4425, 32.8974, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 18 (GCWN9X)</name><Point><coordinates>-110.6862, 32.3987, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 19 (GCWN9X)</name><Point><coordinates>-110.6861, 32.3988, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 20 (GCTWZJ)</name><Point><coordinates>-111.8247, 33.4296, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 21 (GCTWZJ)</name><Point><coordinates>-111.8248, 33.4295, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 22 (GCTAB4)</name><Point><coordinates>-111.4706, 33.4583, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 23 (GCTAB4)</name><Point><coordinates>-111.4698, 33.458, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 24 (GCHDVT)</name><Point><coordinates>-110.9029, 32.6871, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 25 (GCNTXD)</name><Point><coordinates>-110.7743, 32.0832, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 26 (GCNTXD)</name><Point><coordinates>-110.774, 32.0833, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 27 (GCTAB4)</name><Point><coordinates>-111.4707, 33.458, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 28 (GC1AG8C)</name><Point><coordinates>-112.3857, 33.4421, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 29 (GCXREJ)</name><Point><coordinates>-112.2054, 33.7485, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark><Placemark><name>Stop 30 (GCXREJ)</name><Point><coordinates>-112.2058, 33.7479, 100 
+</coordinates></Point><Style>
+  <Icon>
+    <href>root://icons/palette-4.png</href>
+    <w>32</w>
+    <h>32</h>
+    <x>32</x>
+    <y>128</y>
+  </Icon>
+</Style><description><![CDATA[]]></description><visibility>1</visibility></Placemark></Folder><Placemark><styleUrl>#tbTravelStyle</styleUrl><name>Travelbug Route</name><LineString><extrude>1</extrude><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>-76.8734, 39.1637, 100  
+-76.8731, 39.1639, 100  
+-119.8488, 34.4438, 100  
+-119.1506, 34.2217, 100  
+-119.1509, 34.2212, 100  
+-117.9387, 33.687, 100  
+-117.9388, 33.6871, 100  
+-111.0119, 32.3488, 100  
+-111.0071, 32.349, 100  
+-110.0604, 31.7157, 100  
+-110.0606, 31.7153, 100  
+-110.8997, 32.2129, 100  
+-110.8992, 32.2133, 100  
+-157.7067, 21.3533, 100  
+-158.2502, 21.576, 100  
+-110.4426, 32.8976, 100  
+-110.4425, 32.8974, 100  
+-110.6862, 32.3987, 100  
+-110.6861, 32.3988, 100  
+-111.8247, 33.4296, 100  
+-111.8248, 33.4295, 100  
+-111.4706, 33.4583, 100  
+-111.4698, 33.458, 100  
+-110.9029, 32.6871, 100  
+-110.7743, 32.0832, 100  
+-110.774, 32.0833, 100  
+-111.4707, 33.458, 100  
+-112.3857, 33.4421, 100  
+-112.2054, 33.7485, 100  
+-112.2058, 33.7479, 100  
+</coordinates></LineString><visibility>1</visibility></Placemark></Document></kml>
