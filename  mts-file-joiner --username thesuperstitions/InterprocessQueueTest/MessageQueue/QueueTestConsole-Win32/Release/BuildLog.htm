@@ -1,0 +1,146 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: QueueTestConsole-Win32, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTestConsole-Win32\Release\RSP000009.rsp" with contents
+[
+/O2 /Ot /G7 /I "C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework" /I "C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTest" /I "C:\Program Files\boost\boost_1_35_0" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FD /EHsc /MT /GS /Fo"Release/" /Fd"Release/vc70.pdb" /W3 /c /Wp64 /TP
+".\Thread.cpp"
+".\QueueTestConsole-Win32.cpp"
+".\Queue.cpp"
+".\producerThread.cpp"
+".\ConsumerThread.cpp"
+]
+Creating command line "cl.exe @"c:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTestConsole-Win32\Release\RSP000009.rsp" /nologo"
+Creating temporary file "c:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTestConsole-Win32\Release\RSP00000A.rsp" with contents
+[
+/O2 /Ot /G7 /I "C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework" /I "C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTest" /I "C:\Program Files\boost\boost_1_35_0" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FD /EHsc /MT /GS /Yc"stdafx.h" /Fp"Release/QueueTestConsole-Win32.pch" /Fo"Release/" /Fd"Release/vc70.pdb" /W3 /c /Wp64 /TP
+".\stdafx.cpp"
+]
+Creating command line "cl.exe @"c:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTestConsole-Win32\Release\RSP00000A.rsp" /nologo"
+Creating temporary file "c:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTestConsole-Win32\Release\RSP00000B.rsp" with contents
+[
+/VERBOSE:LIB /OUT:"Release/QueueTestConsole-Win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\boost\boost_1_35_0\lib" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /MACHINE:X86  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+".\Release\ConsumerThread.obj"
+".\Release\producerThread.obj"
+".\Release\Queue.obj"
+".\Release\QueueTestConsole-Win32.obj"
+".\Release\stdafx.obj"
+".\Release\Thread.obj"
+]
+Creating command line "link.exe @"c:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTestConsole-Win32\Release\RSP00000B.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+Compiling...
+Thread.cpp
+QueueTestConsole-Win32.cpp
+Queue.cpp
+producerThread.cpp
+ConsumerThread.cpp
+ConsumerThread.cpp(105) : warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+Generating Code...
+Linking...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+Searching libraries
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\kernel32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\user32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\gdi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\winspool.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\comdlg32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\advapi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\shell32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\ole32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\oleaut32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\uuid.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbc32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbccp32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\libcpmt.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_thread-vc71-mt-s-1_35.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_date_time-vc71-mt-s-1_35.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\LIBCMT.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\OLDNAMES.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\kernel32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\user32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\gdi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\winspool.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\comdlg32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\advapi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\shell32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\ole32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\oleaut32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\uuid.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbc32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbccp32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\libcpmt.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_thread-vc71-mt-s-1_35.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_date_time-vc71-mt-s-1_35.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\LIBCMT.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\OLDNAMES.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\kernel32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\user32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\gdi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\winspool.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\comdlg32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio 
+.NET 2003\Vc7\PlatformSDK\lib\advapi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\shell32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\ole32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\oleaut32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\uuid.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbc32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbccp32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\libcpmt.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_thread-vc71-mt-s-1_35.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_date_time-vc71-mt-s-1_35.lib:
+Finished searching libraries
+Searching libraries
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\kernel32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\user32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\gdi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\winspool.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\comdlg32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\advapi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\shell32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\ole32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\oleaut32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\uuid.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbc32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbccp32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\libcpmt.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_thread-vc71-mt-s-1_35.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_date_time-vc71-mt-s-1_35.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\LIBCMT.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\OLDNAMES.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\kernel32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\user32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\gdi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\winspool.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\comdlg32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\advapi32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\shell32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\ole32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\oleaut32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\uuid.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbc32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbccp32.lib:
+    Searching C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\lib\libcpmt.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_thread-vc71-mt-s-1_35.lib:
+    Searching C:\Program Files\boost\boost_1_35_0\lib\libboost_date_time-vc71-mt-s-1_35.lib:
+Finished searching libraries
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTestConsole-Win32\Release\BuildLog.htm"
+QueueTestConsole-Win32 - 0 error(s), 2 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

@@ -1,0 +1,358 @@
+[Main Window]
+Create=1
+Visible=1
+State=2
+Left=0
+Top=0
+Width=1920
+Height=105
+MaxLeft=-1
+MaxTop=-1
+MaxWidth=1928
+MaxHeight=105
+ClientWidth=1920
+ClientHeight=78
+
+[ProjectManager]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=776
+Width=193
+Height=231
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=193
+ClientHeight=231
+TBDockHeight=753
+LRDockWidth=193
+Dockable=1
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=11
+Width=193
+Height=750
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=191
+ClientHeight=748
+TBDockHeight=503
+LRDockWidth=193
+Dockable=1
+SplitPos=86
+
+[Closed Files]
+File_0=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework\examples\BoostThreadWrappers\Thread.cpp',0,1,25,1,1,0,0
+File_1=SourceModule,'C:\DOCUME~1\rosskw1\LOCALS~1\Temp\monitor_test.cpp',0,1,21,24,46,0,0
+File_2=SourceModule,'C:\PROGRA~1\BORLAND\CBUILD~1\INCLUDE\rpcnsip.h',0,1,1,48,26,0,0
+File_3=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Timer.cpp',0,1,1,1,1,0,0
+File_4=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework\framework\utils\Thread.cpp',0,1,1,1,14,0,0
+File_5=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\timespec.cpp',0,1,1,1,1,0,0
+File_6=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework\examples\BoostThreadWrappers\MutexLock.h',0,1,1,11,5,0,0
+File_7=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework\examples\BoostThreadWrappers\Mutex.h',0,1,1,1,1,0,0
+File_8=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\SVN-APL_Gforge\LinkRadio\LinkRadio\KurtsServerCode\myserver.cpp',0,1,1,1,1,0,0
+
+[Modules]
+Module0=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTest.cpp
+Module1=C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework\framework\utils\Sleep.h
+Module2=C:\Program Files\boost\boost_1_35_0\libs\date_time\test\posix_time\testmicrosec_time_clock.cpp
+Module3=C:\Program Files\boost\boost_1_35_0\libs\thread\example\xtime.cpp
+Module4=C:\Program Files\boost\boost_1_35_0\libs\thread\example\thread.cpp
+Module5=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Queue.cpp
+Module6=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_HandlerOutputThread.cpp
+Module7=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Thread.cpp
+Module8=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\timespec.h
+Module9=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Sleep.h
+Module10=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_InputThread.cpp
+Count=11
+EditWindowCount=1
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTest.cpp]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework\framework\utils\Sleep.h]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\boost\boost_1_35_0\libs\date_time\test\posix_time\testmicrosec_time_clock.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\boost\boost_1_35_0\libs\thread\example\xtime.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\boost\boost_1_35_0\libs\thread\example\thread.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Queue.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_HandlerOutputThread.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Thread.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\timespec.h]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Sleep.h]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_InputThread.cpp]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Borland\CBuilder4\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueProject.bpr]
+FormState=0
+FormOnTop=0
+
+[EditWindow0]
+CodeExplorer=CodeExplorer@EditWindow0
+MessageView=MessageView@EditWindow0
+ClassHierarchy=ClassHierarchy@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=0
+Top=102
+Width=1920
+Height=1070
+MaxLeft=-4
+MaxTop=131
+ClientWidth=1912
+ClientHeight=1043
+LeftPanelSize=0
+LeftPanelClients=CodeExplorer@EditWindow0
+LeftPanelData=00000400010000000C000000436F64654578706C6F7265720000000000000000000000000000000000FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=125
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=000004000000000000000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
+ViewCount=16
+CurrentView=0
+View0=0
+View1=1
+View2=2
+View3=3
+View4=4
+View5=5
+View6=6
+View7=7
+View8=8
+View9=9
+View10=10
+View11=11
+View12=12
+View13=13
+View14=14
+View15=15
+
+[ClassHierarchy@EditWindow0]
+TreeWidth=185
+FieldListHeigth=121
+
+[CodeExplorer@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=-1515
+Top=-38
+Width=170
+Height=388
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=170
+ClientHeight=388
+TBDockHeight=388
+LRDockWidth=170
+Dockable=1
+ClassViewDisplayMode=0
+
+[MessageView@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=11
+Top=0
+Width=1901
+Height=125
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1901
+ClientHeight=125
+TBDockHeight=125
+LRDockWidth=443
+Dockable=1
+
+[View0]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTest.cpp
+CursorX=34
+CursorY=14
+TopLine=1
+LeftCol=1
+
+[View1]
+Module=C:\Documents and Settings\rosskw1\My Documents\ComponentizedCombatSystemFramework\framework\utils\Sleep.h
+CursorX=95
+CursorY=58
+TopLine=48
+LeftCol=1
+
+[View2]
+Module=C:\Program Files\boost\boost_1_35_0\libs\date_time\test\posix_time\testmicrosec_time_clock.cpp
+CursorX=20
+CursorY=38
+TopLine=25
+LeftCol=1
+
+[View3]
+Module=C:\Program Files\boost\boost_1_35_0\libs\thread\example\xtime.cpp
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View4]
+Module=C:\Program Files\boost\boost_1_35_0\libs\thread\example\thread.cpp
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View5]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Thread.h
+CursorX=1
+CursorY=3
+TopLine=73
+LeftCol=1
+
+[View6]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Thread.cpp
+CursorX=3
+CursorY=17
+TopLine=1
+LeftCol=1
+
+[View7]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_InputThread.cpp
+CursorX=1
+CursorY=1
+TopLine=43
+LeftCol=1
+
+[View8]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_InputThread.h
+CursorX=28
+CursorY=103
+TopLine=78
+LeftCol=1
+
+[View9]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_HandlerOutputThread.cpp
+CursorX=1
+CursorY=130
+TopLine=121
+LeftCol=1
+
+[View10]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\FederateIO_HandlerOutputThread.h
+CursorX=80
+CursorY=104
+TopLine=95
+LeftCol=1
+
+[View11]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Queue.cpp
+CursorX=51
+CursorY=36
+TopLine=25
+LeftCol=1
+
+[View12]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Queue.h
+CursorX=25
+CursorY=60
+TopLine=44
+LeftCol=1
+
+[View13]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\QueueTest.h
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View14]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\Sleep.h
+CursorX=2
+CursorY=94
+TopLine=87
+LeftCol=1
+
+[View15]
+Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MessageQueue\timespec.h
+CursorX=7
+CursorY=17
+TopLine=1
+LeftCol=1
+
+[DockHosts]
+DockHostCount=1
+
+[DockSite0]
+DockSiteType=0
+Create=1
+Visible=1
+State=0
+Left=1699
+Top=94
+Width=201
+Height=1031
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=193
+ClientHeight=1007
+TBDockHeight=104
+LRDockWidth=201
+Dockable=1
+DockClients=PropertyInspector,ProjectManager
+DockSiteData=0000040000000000EF0300000000000001C1000000000000000100000000FD0200001100000050726F7065727479496E73706563746F720100000000EF0300001200000050726F6A6563744D616E61676572466F726DFFFFFFFF
+
+[Watches]
+Count=0
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+

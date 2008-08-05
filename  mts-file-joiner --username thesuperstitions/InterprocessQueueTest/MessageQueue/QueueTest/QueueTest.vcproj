@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="QueueTest"
+	ProjectGUID="{7DC260B5-B86D-3E39-8108-66C70054AD3E}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="debug\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm300 -w34100 -w34189 -Zm300 -w34100 -w34189 -w34100 -w34189"
+				Optimization="4"
+				AdditionalIncludeDirectories="&quot;c:\Qt\4.3.2\include\QtCore&quot;,&quot;c:\Qt\4.3.2\include\QtCore&quot;,&quot;c:\Qt\4.3.2\include\QtNetwork&quot;,&quot;c:\Qt\4.3.2\include\QtNetwork&quot;,&quot;c:\Qt\4.3.2\include\QtGui&quot;,&quot;c:\Qt\4.3.2\include\QtGui&quot;,&quot;c:\Qt\4.3.2\include&quot;,&quot;.&quot;,&quot;c:\Program Files\boost\boost_1_35_0&quot;,&quot;..\..\..\ComponentizedCombatSystemFramework&quot;,&quot;c:\Qt\4.3.2\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,c:\Qt\4.3.2\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_THREAD_SUPPORT,QT_DLL,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB"
+				GeneratePreprocessedFile="0"
+				ExceptionHandling="TRUE"
+				RuntimeLibrary="3"
+				BufferSecurityCheck="FALSE"
+				RuntimeTypeInfo="TRUE"
+				AssemblerListingLocation="debug\"
+				ObjectFile="debug\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="c:\Qt\4.3.2\lib\qtmaind.lib &quot;C:\Program Files\boost\boost_1_35_0\lib\libboost_thread-vc71-mt-1_35.lib&quot; &quot;C:\Program Files\boost\boost_1_35_0\lib\libboost_thread-vc71-mt-gd-1_35.lib&quot; &quot;C:\Program Files\boost\boost_1_35_0\lib\libboost_date_time-vc71-mt-gd-1_35.lib&quot; Winmm.lib c:\Qt\4.3.2\lib\QtGuid4.lib c:\Qt\4.3.2\lib\QtNetworkd4.lib c:\Qt\4.3.2\lib\QtCored4.lib"
+				OutputFile="debug\QueueTest.exe"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="c:\Qt\4.3.2\lib,&quot;C:\Program Files\boost\boost_1_35_0\lib&quot;"
+				IgnoreDefaultLibraryNames="libc"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=""
+				SubSystem="2"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_THREAD_SUPPORT,QT_DLL,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,_DEBUG"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="release\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm300 -w34100 -w34189 -Zm300 -w34100 -w34189 -w34100 -w34189"
+				Optimization="2"
+				AdditionalIncludeDirectories="&quot;c:\Qt\4.3.2\include\QtCore&quot;,&quot;c:\Qt\4.3.2\include\QtCore&quot;,&quot;c:\Qt\4.3.2\include\QtNetwork&quot;,&quot;c:\Qt\4.3.2\include\QtNetwork&quot;,&quot;c:\Qt\4.3.2\include\QtGui&quot;,&quot;c:\Qt\4.3.2\include\QtGui&quot;,&quot;c:\Qt\4.3.2\include&quot;,&quot;.&quot;,&quot;c:\Program Files\boost\boost_1_35_0&quot;,&quot;..\..\..\ComponentizedCombatSystemFramework&quot;,&quot;c:\Qt\4.3.2\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,c:\Qt\4.3.2\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_THREAD_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,NDEBUG"
+				GeneratePreprocessedFile="0"
+				ExceptionHandling="TRUE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				RuntimeTypeInfo="TRUE"
+				AssemblerListingLocation="release\"
+				ObjectFile="release\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="c:\Qt\4.3.2\lib\qtmain.lib &quot;C:\Program Files\boost\boost_1_35_0\lib\libboost_thread-vc71-mt-1_35.lib&quot; &quot;C:\Program Files\boost\boost_1_35_0\lib\libboost_thread-vc71-mt-gd-1_35.lib&quot; &quot;C:\Program Files\boost\boost_1_35_0\lib\libboost_date_time-vc71-mt-gd-1_35.lib&quot; Winmm.lib c:\Qt\4.3.2\lib\QtGui4.lib c:\Qt\4.3.2\lib\QtNetwork4.lib c:\Qt\4.3.2\lib\QtCore4.lib"
+				OutputFile="release\QueueTest.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="c:\Qt\4.3.2\lib,&quot;C:\Program Files\boost\boost_1_35_0\lib&quot;"
+				IgnoreDefaultLibraryNames="libc"
+				GenerateDebugInformation="FALSE"
+				ProgramDatabaseFile=""
+				SubSystem="2"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_THREAD_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="ConsumerThread.cpp">
+			</File>
+			<File
+				RelativePath="main.cpp">
+			</File>
+			<File
+				RelativePath="mainwindow.cpp">
+			</File>
+			<File
+				RelativePath="ProducerThread.cpp">
+			</File>
+			<File
+				RelativePath="Queue.cpp">
+			</File>
+			<File
+				RelativePath="Thread.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="ConsumerThread.h">
+			</File>
+			<File
+				RelativePath="mainwindow.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC mainwindow.h"
+						CommandLine="C:\Qt\4.3.2\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include&quot; -I&quot;.&quot; -I&quot;c:\Program Files\boost\boost_1_35_0&quot; -I&quot;..\..\..\ComponentizedCombatSystemFramework&quot; -I&quot;c:\Qt\4.3.2\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\4.3.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 mainwindow.h -o debug\moc_mainwindow.cpp
+"
+						AdditionalDependencies="C:\Qt\4.3.2\bin\moc.exe;mainwindow.h"
+						Outputs="debug\moc_mainwindow.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC mainwindow.h"
+						CommandLine="C:\Qt\4.3.2\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include&quot; -I&quot;.&quot; -I&quot;c:\Program Files\boost\boost_1_35_0&quot; -I&quot;..\..\..\ComponentizedCombatSystemFramework&quot; -I&quot;c:\Qt\4.3.2\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\4.3.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 mainwindow.h -o release\moc_mainwindow.cpp
+"
+						AdditionalDependencies="C:\Qt\4.3.2\bin\moc.exe;mainwindow.h"
+						Outputs="release\moc_mainwindow.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ProducerThread.h">
+			</File>
+			<File
+				RelativePath="Queue.h">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC Queue.h &amp; MOC Queue.h"
+						CommandLine="C:\Qt\4.3.2\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include&quot; -I&quot;.&quot; -I&quot;c:\Program Files\boost\boost_1_35_0&quot; -I&quot;..\..\..\ComponentizedCombatSystemFramework&quot; -I&quot;c:\Qt\4.3.2\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\4.3.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 Queue.h -o debug\moc_Queue.cpp &amp;&amp; C:\Qt\4.3.2\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include&quot; -I&quot;.&quot; -I&quot;c:\Program Files\boost\boost_1_35_0&quot; -I&quot;..\..\..\ComponentizedCombatSystemFramework&quot; -I&quot;c:\Qt\4.3.2\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\Qt\4.3.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 Queue.h -o debug\moc_Queue.cpp
+"
+						AdditionalDependencies="C:\Qt\4.3.2\bin\moc.exe;Queue.h"
+						Outputs="debug\moc_Queue.cpp;debug\moc_Queue.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="MOC Queue.h &amp; MOC Queue.h"
+						CommandLine="C:\Qt\4.3.2\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include&quot; -I&quot;.&quot; -I&quot;c:\Program Files\boost\boost_1_35_0&quot; -I&quot;..\..\..\ComponentizedCombatSystemFramework&quot; -I&quot;c:\Qt\4.3.2\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\4.3.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 Queue.h -o release\moc_Queue.cpp &amp;&amp; C:\Qt\4.3.2\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtCore&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtNetwork&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include\QtGui&quot; -I&quot;c:\Qt\4.3.2\include&quot; -I&quot;.&quot; -I&quot;c:\Program Files\boost\boost_1_35_0&quot; -I&quot;..\..\..\ComponentizedCombatSystemFramework&quot; -I&quot;c:\Qt\4.3.2\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\Qt\4.3.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 Queue.h -o release\moc_Queue.cpp
+"
+						AdditionalDependencies="C:\Qt\4.3.2\bin\moc.exe;Queue.h"
+						Outputs="release\moc_Queue.cpp;release\moc_Queue.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Thread.h">
+			</File>
+			<File
+				RelativePath="c:\Program Files\boost\boost_1_35_0\boost\thread.hpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\moc_mainwindow.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_mainwindow.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="release\moc_Queue.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="debug\moc_Queue.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="TRUE">
+					<Tool
+						Name="VCCLCompilerTool"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ui_QueueTest.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="QueueTest.ui">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC QueueTest.ui"
+						CommandLine="C:\Qt\4.3.2\bin\uic.exe QueueTest.ui -o ui_QueueTest.h
+"
+						AdditionalDependencies="C:\Qt\4.3.2\bin\uic.exe;QueueTest.ui"
+						Outputs="ui_QueueTest.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="UIC QueueTest.ui"
+						CommandLine="C:\Qt\4.3.2\bin\uic.exe QueueTest.ui -o ui_QueueTest.h
+"
+						AdditionalDependencies="C:\Qt\4.3.2\bin\uic.exe;QueueTest.ui"
+						Outputs="ui_QueueTest.h"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

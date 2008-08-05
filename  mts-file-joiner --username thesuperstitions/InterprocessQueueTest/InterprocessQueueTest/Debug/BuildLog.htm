@@ -1,0 +1,118 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: InterprocessQueueTest, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\Debug\RSP00000C.rsp" with contents
+[
+/Od /I "C:\Program Files\boost\boost_1_35_0" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Gm /EHsc /RTC1 /MLd /Yu"stdafx.h" /Fp"Debug/InterprocessQueueTest.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+".\InterprocessQueueTest.cpp"
+]
+Creating command line "cl.exe @"c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\Debug\RSP00000C.rsp" /nologo"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+InterprocessQueueTest.cpp
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(45) : warning C4305: 'argument' : truncation from 'double' to 'float'
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\ipc\message_queue.hpp(603) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\ipc\message_queue.hpp(603) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\ipc\message_queue.hpp(527) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\ipc\message_queue.hpp(527) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\ipc\message_queue.hpp(443) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\ipc\message_queue.hpp(443) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\sync\emulation\interprocess_condition.hpp(149) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\sync\emulation\interprocess_condition.hpp(149) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\sync\emulation\interprocess_condition.hpp(93) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+        c:\Prog
+ram Files\boost\boost_1_35_0\boost\interprocess\sync\emulation\interprocess_condition.hpp(93) : see reference to class template instantiation 'boost::interprocess::upgradable_lock<M>' being compiled
+        with
+        [
+            M=boost::interprocess::interprocess_mutex
+        ]
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(47) : error C2512: 'std::basic_ostream<_Elem,_Traits>' : no appropriate default constructor available
+        with
+        [
+            _Elem=char,
+            _Traits=std::char_traits<char>
+        ]
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<E,T> &boost::operator <<(std::basic_ostream<E,T> &,const boost::shared_ptr<Y> &)' : could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'char [100]'
+        c:\Program Files\boost\boost_1_35_0\boost\shared_ptr.hpp(576) : see declaration of 'boost::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<E,T> &boost::interprocess::operator <<(std::basic_ostream<E,T> &,const boost::interprocess::offset_ptr<Y> &)' : could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'char [100]'
+        c:\Program Files\boost\boost_1_35_0\boost\interprocess\offset_ptr.hpp(293) : see declaration of 'boost::interprocess::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)' : could not deduce template argument for 'std::basic_ostream<char,_Elem> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(887) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)' : could not deduce template argument for 'std::basic_ostream<char,_Elem> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(880) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)' : could not deduce template argument for 'std::basic_ostream<char,_Elem> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(873) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)' : could not deduce template argument for 'std::basic_ostream<char,_Elem> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(866) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)' : could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(828) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)' : could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(783) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)' : could not deduce template argument for 'std::basic_ostream<char,_Elem> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(744) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)' : could not deduce template argument for 'std::basic_ostream<char,_Elem> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(697) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)' : could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(659) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)' : could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\ostream(613) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::_Smanip<_Arg> &)' : could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\iomanip(70) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::_Fillobj<_Elem> &)' : could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\iomanip(41) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2784: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_ostream<_Elem,_Traits> &' from 'char [100]'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\include\string(535) : see declaration of 'std::operator`<<''
+c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\InterprocessQueueTest.cpp(74) : error C2677: binary '<<' : no global operator found which takes type 'std::ostream' (or there is no acceptable conversion)
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\InterprocessQueueTest\Debug\BuildLog.htm"
+InterprocessQueueTest - 17 error(s), 1 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>
