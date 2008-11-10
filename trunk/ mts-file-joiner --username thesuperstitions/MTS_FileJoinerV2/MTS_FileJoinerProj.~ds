@@ -5,7 +5,7 @@ State=0
 Left=-12
 Top=-3
 Width=1928
-Height=105
+Height=112
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1920
@@ -18,12 +18,12 @@ State=0
 Left=341
 Top=11
 Width=341
-Height=877
+Height=875
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=341
-ClientHeight=877
-TBDockHeight=877
+ClientHeight=875
+TBDockHeight=875
 LRDockWidth=341
 Dockable=1
 
@@ -34,12 +34,12 @@ State=0
 Left=0
 Top=11
 Width=337
-Height=877
+Height=875
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=335
-ClientHeight=875
-TBDockHeight=877
+ClientHeight=873
+TBDockHeight=875
 LRDockWidth=219
 Dockable=1
 SplitPos=104
@@ -58,13 +58,9 @@ File_9=SourceModule,'C:\Documents and Settings\rosskw1\My Documents\SVN-Google\M
 
 [Modules]
 Module0=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MTS_FileJoiner\MTS_FileJoiner.cpp
-Module1=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks.h
-Module2=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\MessageQueue\Queue.cpp
-Module3=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks\incl\vxWorks.h
-Module4=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\FrameworkThread.cpp
-Module5=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\Control.cpp
-Module6=C:\MAK\makRti3.2\include\RTI\RTI1516.h
-Count=7
+Module1=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\MessageQueue\Queue.cpp
+Module2=C:\MAK\makRti3.2\include\RTI\RTI1516.h
+Count=3
 EditWindowCount=1
 
 [C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MTS_FileJoiner\MTS_FileJoiner.cpp]
@@ -72,27 +68,7 @@ ModuleType=SourceModule
 FormState=1
 FormOnTop=0
 
-[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks.h]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
-
 [C:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\MessageQueue\Queue.cpp]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
-
-[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks\incl\vxWorks.h]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
-
-[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\FrameworkThread.cpp]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
-
-[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\Control.cpp]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
@@ -106,7 +82,7 @@ FormOnTop=0
 FormState=0
 FormOnTop=0
 
-[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MTS_FileJoiner\MTS_FileJoinerProj.bpr]
+[C:\Documents and Settings\rosskw1\My Documents\SVN-Google\MTS_FileJoinerV2\MTS_FileJoinerProj.bpr]
 FormState=0
 FormOnTop=0
 
@@ -116,15 +92,17 @@ MessageView=MessageView@EditWindow0
 ClassHierarchy=ClassHierarchy@EditWindow0
 Create=1
 Visible=1
-State=0
+State=2
 Left=0
 Top=103
 Width=1925
 Height=925
 MaxLeft=-4
-MaxTop=97
-ClientWidth=1917
-ClientHeight=898
+MaxTop=105
+MaxWidth=1928
+MaxHeight=1099
+ClientWidth=1920
+ClientHeight=1065
 LeftPanelSize=0
 LeftPanelClients=CodeExplorer@EditWindow0
 LeftPanelData=00000400010000000C000000436F64654578706C6F7265720000000000000000000000000000000000FFFFFFFF
@@ -132,16 +110,12 @@ RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
 BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
-ViewCount=8
+ViewCount=4
 CurrentView=1
 View0=0
 View1=1
 View2=2
 View3=3
-View4=4
-View5=5
-View6=6
-View7=7
 
 [ClassHierarchy@EditWindow0]
 TreeWidth=185
@@ -195,41 +169,13 @@ TopLine=87
 LeftCol=1
 
 [View2]
-Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks.h
-CursorX=2
-CursorY=1
-TopLine=1
-LeftCol=1
-
-[View3]
 Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\InterprocessQueueTest\MessageQueue\Queue.cpp
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 
-[View4]
-Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\vxWorks\incl\vxWorks.h
-CursorX=1
-CursorY=1
-TopLine=1
-LeftCol=1
-
-[View5]
-Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\FrameworkThread.cpp
-CursorX=1
-CursorY=1
-TopLine=1
-LeftCol=1
-
-[View6]
-Module=C:\Documents and Settings\rosskw1\My Documents\SVN-Google\HLA_IO\IO\Control.cpp
-CursorX=1
-CursorY=1
-TopLine=1
-LeftCol=1
-
-[View7]
+[View3]
 Module=C:\MAK\makRti3.2\include\RTI\RTI1516.h
 CursorX=18
 CursorY=54
@@ -251,12 +197,12 @@ Height=912
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=682
-ClientHeight=888
+ClientHeight=886
 TBDockHeight=104
 LRDockWidth=201
 Dockable=1
 DockClients=PropertyInspector,ProjectManager
-DockSiteData=0000040000000000AA020000000000000278030000000000000100000000550100001100000050726F7065727479496E73706563746F720100000000AA0200001200000050726F6A6563744D616E61676572466F726DFFFFFFFF
+DockSiteData=0000040000000000AA020000000000000276030000000000000100000000550100001100000050726F7065727479496E73706563746F720100000000AA0200001200000050726F6A6563744D616E61676572466F726DFFFFFFFF
 
 [Watches]
 Count=0
