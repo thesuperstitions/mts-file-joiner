@@ -1,0 +1,1 @@
+Joins .mts files created with Canon HG-10 hard disk camcorder.
